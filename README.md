@@ -1,9 +1,8 @@
-i2x-client
-==========
+# i2x Client
 
-**i2x** client agent. Sample Ruby to create **i2x** distributed agent running locally.
+**i2x** client-side agent. Ruby script to launch **i2x** distributed agents locally.
 
-## Installation
+## Usage
 
 Add the _i2x_ gem:
 
@@ -13,14 +12,20 @@ And then execute:
 
     $ ruby i2x.rb <config_file>
 
-## Usage
+## Configuration
 
-### Scheduling with cron
+Check the `csv.js`, `json.js`, `sql.js` and `xml.js` files for sample agent configurations.
 
-To perform scheduled checks, enable running this client as a cron job.
+## Scheduling
+
+To perform scheduled checks, enable running this client as a cron job (or similar).
 
 #### Linux
 
 #### OS X
 
 #### Windows
+
+## Changelog
+
+- 2014-01-21: release 0.1
